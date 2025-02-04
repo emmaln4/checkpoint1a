@@ -3,6 +3,8 @@
 
 //colors 
 color Slate = #4A4E69;
+color Tan   = #C9ADA7;
+color Umber = #9d6b53;
 
 void setup() {
   background(Slate);
@@ -13,20 +15,42 @@ void setup() {
 void draw() {
   noStroke();
   //casa
+  fill(Tan);
   rect(200, 600, 400, 300);
   triangle(200, 600, 600, 600, 400, 400);
-  stroke(255);
+  stroke(Umber);
   strokeWeight(10);
   line(400, 400, 150, 650);
   line(400, 400, 650, 650);
+  noStroke();
+  fill(Umber);
+  rect(350, 675, 100, 125);
+  circle(400, 675, 100);
+  fill(#F2E9E4);
+  circle(370, 725, 15);
+  stroke(Umber);
+  circle(400, 500, 75);
+  line(400, 465, 400, 535);
+  line(365, 500, 435, 500);
+  
   //albero
+  fill(Umber);
   rect(750, 625, 100, 175);
+  noStroke();
+  fill(#73a942, 100);
   circle(750, 600, 100);
+  fill(#538d22, 50);
   circle(750, 500, 100);
+  fill(#679436, 75);
   circle(725, 550, 100);
+  fill(#679436, 25);
   circle(800, 550, 100);
+  fill(#73a942, 125);
   circle(800, 450, 100);
+  fill(#538d22, 100);
+  circle(800, 600, 100);
   //sole
+  fill(#ffd449);
   circle(0, 0, 300);
   
   
