@@ -5,7 +5,7 @@ class stella {
   float x, y, size;
   float m;
   float a, va;
-  int stellacoscount = int (random (0, 800));
+  int stellacoscount = int (random (0, 360));
 
   //construtor
   stella() {
